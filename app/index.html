@@ -26,13 +26,20 @@
 
 
         <div class="container">
-           <ul id="scene">
-              <li class="layer" data-depth="0.00"><div class="layer1">layer 1</div></li>
-              <li class="layer" data-depth="0.20"><div class="layer2">layer 2</div></li>
-              <li class="layer" data-depth="0.40"><div class="layer3">layer 3</div></li>
-              <li class="layer" data-depth="0.60"><div class="layer4">layer 4</div></li>
-              <li class="layer" data-depth="0.80"><div class="layer5">layer 5</div></li>
-              <li class="layer" data-depth="1.00"><div class="layer6">layer 6</div></li>
+        <div class="header"></div>
+            <ul id="scene"
+              data-calibrate-x="false"
+              data-calibrate-y="true"
+              data-invert-x="false"
+              data-invert-y="true"
+              data-limit-x="70"
+              data-limit-y="70"
+              data-scalar-x="60"
+              data-scalar-y="60"
+              data-friction-x="0.2"
+              data-friction-y="0.8">
+              <li class="layer" data-depth="0.00"><div class="layer1"></div></li>
+              <li class="layer" data-depth="0.20"><img class="barco" src="images/barco.jpg" width="400px" height="400px"></li>
             </ul>
         </div>
 
