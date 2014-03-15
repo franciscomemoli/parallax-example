@@ -3,12 +3,58 @@
     height: 200px;
 }
 
-.barco {
+.boat {
 	display: block;
     margin: auto;
+    margin-top: 200px;
 }
 .layer1 {
-    background-color: red;
-    height: 500px;
+    height: 800px;
     width: 100%; 
+}
+
+.cloud {
+	width: 280px;
+	height: 280px;
+    background-image: url(../images/cloud.png);
+}
+
+.cloud-1 {
+	float:left;
+}
+
+.cloud-2 {
+	float:right;
+}
+
+.cloudSwing {
+  -webkit-animation: cloudSwing 3s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@-webkit-keyframes cloudSwing {
+  0% {
+    -webkit-transform: rotateZ(15deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(-15deg);
+  }
+}
+
+.boatSwing {
+  -webkit-animation: boatSwing 3s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@-webkit-keyframes boatSwing {
+  0% {
+    -webkit-transform: rotateZ(15deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(-15deg);
+  }
+}
+
+body {
+	background-image: url(../images/background.jpg);
 }
