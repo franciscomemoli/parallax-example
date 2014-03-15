@@ -1,19 +1,24 @@
 Parallax.js Example
 ====================
 
-Dependencies:
-node
 
-How to install:
+####Dependencies
 
-git clone https://github.com/manuelolmos/parallax-example.git
-cd parallax-example
-npm install
-bower install
-grunt serve
+    node
+
+####Installation
+
+    git clone https://github.com/manuelolmos/parallax-example.git
+    cd parallax-example
+    bower install
+    
 
 
-An example of what you can do with paralla.js
+####Run:
 
-Reference:
+    grunt serve
+
+
+
+####Reference: 
 https://github.com/wagerfield/parallax
